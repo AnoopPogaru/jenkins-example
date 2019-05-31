@@ -1,5 +1,5 @@
     nodes('test_ubuntu')
-    stages {
+       {
         stage ('Compile Stage') {
 
             steps {
@@ -8,7 +8,7 @@
                 }
             }
         }
-    }
+
         stage ('Testing Stage') {
 
             steps {
