@@ -1,5 +1,6 @@
 pipeline {
-    agent any
+    
+    nodes('test_ubuntu')
 
     stages {
         stage ('Compile Stage') {
