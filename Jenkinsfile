@@ -1,7 +1,4 @@
-pipeline {
-    
     nodes('test_ubuntu')
-
     stages {
         stage ('Compile Stage') {
 
@@ -11,7 +8,7 @@ pipeline {
                 }
             }
         }
-
+    }
         stage ('Testing Stage') {
 
             steps {
@@ -30,4 +27,4 @@ pipeline {
             }
         }
     }
-}
+
